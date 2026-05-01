@@ -1,0 +1,1762 @@
+[
+  {
+    "id": "T01",
+    "category": "emotional",
+    "description": "Neglect vs overwork in relationship",
+    "passed": false,
+    "elapsed": 7.05,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "misunderstanding",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0068,
+    "rag_used": true,
+    "response_a_words": 139,
+    "response_b_words": 126,
+    "checks": {
+      "conflict_type": {
+        "passed": false,
+        "msg": "got 'misunderstanding', expected 'emotional'"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 15%, overlap 67%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "139 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "126 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'acknowledge']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'appreciate']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=6, you=14) B(first=5, you=13)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.007"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T02",
+    "category": "logical",
+    "description": "Data dispute on marketing campaign",
+    "passed": true,
+    "elapsed": 11.16,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "logical",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0005,
+    "rag_used": true,
+    "response_a_words": 124,
+    "response_b_words": 115,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "logical"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 14%, overlap 53%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "124 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "115 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'recognize']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=1, you=7) B(first=2, you=4)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T03",
+    "category": "misunderstanding",
+    "description": "Information shared without consent",
+    "passed": true,
+    "elapsed": 32.15,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "misunderstanding",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0007,
+    "rag_used": true,
+    "response_a_words": 110,
+    "response_b_words": 108,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "misunderstanding"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 2%, overlap 35%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "110 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "108 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=1, you=8) B(first=3, you=9)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T04",
+    "category": "value",
+    "description": "Religious upbringing of children",
+    "passed": true,
+    "elapsed": 27.18,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "value",
+    "resolvability": "non_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0021,
+    "rag_used": true,
+    "response_a_words": 128,
+    "response_b_words": 125,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "value"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "non_resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 1%, overlap 41%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "128 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "125 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'valid']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=1, you=8) B(first=1, you=15)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.002"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T05",
+    "category": "emotional",
+    "description": "Public humiliation vs honest feedback",
+    "passed": true,
+    "elapsed": 26.04,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "emotional",
+    "resolvability": "non_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0011,
+    "rag_used": true,
+    "response_a_words": 105,
+    "response_b_words": 103,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "emotional"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'non_resolvable', expected 'partially_resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 2%, overlap 42%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "105 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "103 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['feel', 'valid']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=5) B(first=0, you=8)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T06",
+    "category": "logical",
+    "description": "Code review blocking deployment",
+    "passed": true,
+    "elapsed": 24.34,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "logical",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0007,
+    "rag_used": true,
+    "response_a_words": 106,
+    "response_b_words": 114,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "logical"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 8%, overlap 67%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "106 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "114 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'acknowledge']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'acknowledge']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=2, you=5) B(first=2, you=4)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T07",
+    "category": "misunderstanding",
+    "description": "Meeting time confusion",
+    "passed": true,
+    "elapsed": 24.96,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "misunderstanding",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0006,
+    "rag_used": true,
+    "response_a_words": 80,
+    "response_b_words": 80,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "misunderstanding"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 3%, overlap 43%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "80 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "80 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=3) B(first=0, you=4)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T08",
+    "category": "value",
+    "description": "Remote work vs in-office culture",
+    "passed": true,
+    "elapsed": 26.97,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "value",
+    "resolvability": "partially_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0006,
+    "rag_used": true,
+    "response_a_words": 112,
+    "response_b_words": 117,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "value"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "partially_resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 4%, overlap 41%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "112 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "117 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['feel', 'valid']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=12) B(first=0, you=6)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T09",
+    "category": "emotional",
+    "description": "Credit for shared idea",
+    "passed": false,
+    "elapsed": 27.16,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "misunderstanding",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0005,
+    "rag_used": true,
+    "response_a_words": 141,
+    "response_b_words": 126,
+    "checks": {
+      "conflict_type": {
+        "passed": false,
+        "msg": "got 'misunderstanding', expected 'emotional'"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 21%, overlap 72%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "141 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "126 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'acknowledge']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'acknowledge']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=5, you=10) B(first=5, you=9)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T10",
+    "category": "logical",
+    "description": "Budget allocation dispute",
+    "passed": true,
+    "elapsed": 27.29,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "logical",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0009,
+    "rag_used": true,
+    "response_a_words": 146,
+    "response_b_words": 150,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "logical"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'resolvable', expected 'partially_resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 5%, overlap 50%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "146 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "150 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'acknowledge']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'acknowledge', 'appreciate']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=6, you=4) B(first=9, you=4)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T11",
+    "category": "misunderstanding",
+    "description": "Tone in written message",
+    "passed": true,
+    "elapsed": 25.83,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "misunderstanding",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0006,
+    "rag_used": true,
+    "response_a_words": 81,
+    "response_b_words": 79,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "misunderstanding"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 2%, overlap 44%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "81 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "79 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'valid']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=2) B(first=0, you=8)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T12",
+    "category": "value",
+    "description": "Privacy vs transparency in relationship",
+    "passed": false,
+    "elapsed": 28.29,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "logical",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0026,
+    "rag_used": true,
+    "response_a_words": 105,
+    "response_b_words": 122,
+    "checks": {
+      "conflict_type": {
+        "passed": false,
+        "msg": "got 'logical', expected 'value'"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'resolvable', expected 'partially_resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 3%, overlap 62%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "105 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "122 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'sounds']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['feel', 'valid']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=12) B(first=0, you=9)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.003"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T13",
+    "category": "emotional",
+    "description": "Parenting criticism",
+    "passed": false,
+    "elapsed": 24.95,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "emotional",
+    "resolvability": "non_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0015,
+    "rag_used": true,
+    "response_a_words": 102,
+    "response_b_words": 98,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "emotional"
+      },
+      "resolvability": {
+        "passed": false,
+        "msg": "got 'non_resolvable', expected 'resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 3%, overlap 43%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "102 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "98 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=5) B(first=0, you=6)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.002"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T14",
+    "category": "logical",
+    "description": "Technical architecture disagreement",
+    "passed": true,
+    "elapsed": 28.12,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "logical",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0006,
+    "rag_used": true,
+    "response_a_words": 114,
+    "response_b_words": 127,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "logical"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'resolvable', expected 'partially_resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 8%, overlap 47%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "114 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "127 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'acknowledge']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'valid']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=1, you=6) B(first=1, you=8)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T15",
+    "category": "misunderstanding",
+    "description": "Friendship availability expectations",
+    "passed": true,
+    "elapsed": 27.1,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "misunderstanding",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0009,
+    "rag_used": true,
+    "response_a_words": 138,
+    "response_b_words": 158,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "misunderstanding"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 25%, overlap 70%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "138 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "158 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'appreciate']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=4, you=13) B(first=4, you=14)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T16",
+    "category": "value",
+    "description": "Spending vs saving financial conflict",
+    "passed": true,
+    "elapsed": 28.09,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "value",
+    "resolvability": "partially_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.001,
+    "rag_used": true,
+    "response_a_words": 106,
+    "response_b_words": 131,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "value"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "partially_resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 4%, overlap 46%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "106 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "131 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['feel', 'valid']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'valid']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=1, you=12) B(first=1, you=12)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T17",
+    "category": "emotional",
+    "description": "Workload imbalance in team",
+    "passed": true,
+    "elapsed": 23.93,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "emotional",
+    "resolvability": "partially_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0065,
+    "rag_used": true,
+    "response_a_words": 81,
+    "response_b_words": 81,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "emotional"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'partially_resolvable', expected 'resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 5%, overlap 37%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "81 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "81 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'appreciate']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['feel']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=6) B(first=0, you=4)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.006"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T18",
+    "category": "logical",
+    "description": "Deadline feasibility",
+    "passed": false,
+    "elapsed": 25.97,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "value",
+    "resolvability": "partially_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0005,
+    "rag_used": true,
+    "response_a_words": 99,
+    "response_b_words": 96,
+    "checks": {
+      "conflict_type": {
+        "passed": false,
+        "msg": "got 'value', expected 'logical'"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'partially_resolvable', expected 'resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 11%, overlap 65%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "99 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "96 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=3) B(first=0, you=3)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T19",
+    "category": "misunderstanding",
+    "description": "Responsibility for task",
+    "passed": false,
+    "elapsed": 26.91,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "logical",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0006,
+    "rag_used": true,
+    "response_a_words": 102,
+    "response_b_words": 105,
+    "checks": {
+      "conflict_type": {
+        "passed": false,
+        "msg": "got 'logical', expected 'misunderstanding'"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 4%, overlap 51%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "102 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "105 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['feel', 'see why', 'sounds']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'sounds']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=4, you=7) B(first=4, you=6)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T20",
+    "category": "value",
+    "description": "Career sacrifice vs family priority",
+    "passed": false,
+    "elapsed": 26.26,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "misunderstanding",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0009,
+    "rag_used": true,
+    "response_a_words": 100,
+    "response_b_words": 106,
+    "checks": {
+      "conflict_type": {
+        "passed": false,
+        "msg": "got 'misunderstanding', expected 'emotional'"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'resolvable', expected 'partially_resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 3%, overlap 34%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "100 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "106 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'valid']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'hear']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=8, you=4) B(first=8, you=11)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T21",
+    "category": "emotional",
+    "description": "Roommate boundaries and resentment",
+    "passed": true,
+    "elapsed": 26.07,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "emotional",
+    "resolvability": "partially_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0006,
+    "rag_used": true,
+    "response_a_words": 97,
+    "response_b_words": 113,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "emotional"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'partially_resolvable', expected 'resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 2%, overlap 68%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "97 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "113 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['feel']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=10) B(first=0, you=10)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T22",
+    "category": "emotional",
+    "description": "Manager praise imbalance",
+    "passed": true,
+    "elapsed": 27.08,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "emotional",
+    "resolvability": "partially_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0007,
+    "rag_used": true,
+    "response_a_words": 114,
+    "response_b_words": 116,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "emotional"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'partially_resolvable', expected 'resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 2%, overlap 46%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "114 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "116 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['feel', 'acknowledge']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['feel', 'valid', 'acknowledge']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=11) B(first=0, you=7)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T23",
+    "category": "emotional",
+    "description": "Friend forgotten during crisis",
+    "passed": true,
+    "elapsed": 23.82,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "emotional",
+    "resolvability": "partially_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0078,
+    "rag_used": true,
+    "response_a_words": 90,
+    "response_b_words": 89,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "emotional"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'partially_resolvable', expected 'resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 2%, overlap 46%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "90 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "89 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['appreciate']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=7, you=7) B(first=8, you=8)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.008"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T24",
+    "category": "logical",
+    "description": "Customer support SLA disagreement",
+    "passed": true,
+    "elapsed": 25.91,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "logical",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0006,
+    "rag_used": true,
+    "response_a_words": 97,
+    "response_b_words": 90,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "logical"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 1%, overlap 49%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "97 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "90 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'valid']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['feel']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=1, you=5) B(first=0, you=6)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T25",
+    "category": "logical",
+    "description": "Security patch vs product launch",
+    "passed": true,
+    "elapsed": 27.05,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "logical",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0005,
+    "rag_used": true,
+    "response_a_words": 110,
+    "response_b_words": 116,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "logical"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'resolvable', expected 'partially_resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 9%, overlap 71%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "110 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "116 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'sense that']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'sense that']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=3, you=6) B(first=3, you=5)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T26",
+    "category": "logical",
+    "description": "Rent increase dispute",
+    "passed": true,
+    "elapsed": 23.7,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "logical",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0006,
+    "rag_used": true,
+    "response_a_words": 81,
+    "response_b_words": 85,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "logical"
+      },
+      "resolvability": {
+        "passed": null,
+        "msg": "adjacent: got 'resolvable', expected 'partially_resolvable'"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 6%, overlap 41%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "81 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "85 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['feel']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=5) B(first=0, you=5)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T27",
+    "category": "misunderstanding",
+    "description": "Assumed ownership of shared task",
+    "passed": true,
+    "elapsed": 24.85,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "misunderstanding",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0006,
+    "rag_used": true,
+    "response_a_words": 88,
+    "response_b_words": 89,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "misunderstanding"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 4%, overlap 40%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "88 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "89 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=2, you=3) B(first=1, you=8)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T28",
+    "category": "misunderstanding",
+    "description": "Sarcasm misread in chat",
+    "passed": true,
+    "elapsed": 24.72,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "misunderstanding",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0008,
+    "rag_used": true,
+    "response_a_words": 77,
+    "response_b_words": 73,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "misunderstanding"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 3%, overlap 40%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "77 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "73 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['feel', 'valid']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=3) B(first=0, you=4)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T29",
+    "category": "misunderstanding",
+    "description": "Different expectations around silence",
+    "passed": true,
+    "elapsed": 26.04,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "misunderstanding",
+    "resolvability": "resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0007,
+    "rag_used": true,
+    "response_a_words": 83,
+    "response_b_words": 79,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "misunderstanding"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 4%, overlap 37%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "83 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "79 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'hear']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=4) B(first=0, you=5)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T30",
+    "category": "value",
+    "description": "Elder care responsibility conflict",
+    "passed": true,
+    "elapsed": 26.0,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "value",
+    "resolvability": "partially_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0015,
+    "rag_used": true,
+    "response_a_words": 96,
+    "response_b_words": 93,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "value"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "partially_resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 2%, overlap 43%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "96 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "93 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['feel']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=9) B(first=0, you=8)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.002"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T31",
+    "category": "value",
+    "description": "Activism vs job security",
+    "passed": true,
+    "elapsed": 26.85,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "value",
+    "resolvability": "non_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0008,
+    "rag_used": true,
+    "response_a_words": 111,
+    "response_b_words": 108,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "value"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "non_resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 5%, overlap 59%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "111 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "108 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['feel', 'valid']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=5) B(first=0, you=9)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  },
+  {
+    "id": "T32",
+    "category": "value",
+    "description": "Inheritance fairness dispute",
+    "passed": true,
+    "elapsed": 23.9,
+    "retries": 0,
+    "confidence": 0.92,
+    "conflict_type": "value",
+    "resolvability": "partially_resolvable",
+    "fallback_used": false,
+    "safety_score": 0.0008,
+    "rag_used": true,
+    "response_a_words": 85,
+    "response_b_words": 95,
+    "checks": {
+      "conflict_type": {
+        "passed": true,
+        "msg": "value"
+      },
+      "resolvability": {
+        "passed": true,
+        "msg": "partially_resolvable"
+      },
+      "distinct_responses": {
+        "passed": true,
+        "msg": "distinct (similarity 11%, overlap 60%)"
+      },
+      "specific_a": {
+        "passed": true,
+        "msg": "85 words"
+      },
+      "specific_b": {
+        "passed": true,
+        "msg": "95 words"
+      },
+      "empathy_a": {
+        "passed": true,
+        "msg": "markers: ['feel', 'valid', 'acknowledge']"
+      },
+      "empathy_b": {
+        "passed": true,
+        "msg": "markers: ['understand', 'feel', 'acknowledge']"
+      },
+      "pov_correct": {
+        "passed": true,
+        "msg": "A(first=0, you=4) B(first=0, you=8)"
+      },
+      "safety": {
+        "passed": true,
+        "msg": "score=0.001"
+      }
+    },
+    "error": null
+  }
+]
