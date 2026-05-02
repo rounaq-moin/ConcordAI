@@ -48,35 +48,6 @@ export_dashboard_png.py    High-resolution PNG dashboard exporter
 test_cases.json            Main test suite
 ```
 
-## What Not To Commit
-
-Keep these local:
-
-```text
-.env
-.venv/
-.venv312/
-__pycache__/
-.tmp/
-logs/
-traces/
-data/conflict_store/
-frontend/node_modules/
-frontend/dist/
-frontend/*.log
-combined_eval_charts/
-honest_eval_report_batches/
-metrics_report_batches/
-metrics_report_single/
-b01.json ... b10.json
-all_100_after.json
-full_results.json
-quality_results.json
-results.json
-```
-
-Commit source code, scripts, `test_cases.json`, `data/scenarios.json`, `.env.example`, `requirements.txt`, and frontend source files.
-
 ## Backend Setup
 
 From the project root:
